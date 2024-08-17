@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#digits {
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#number {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 70px; /* Add space for the digits display */
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btns {
+    background-color: #666;
+    color: white;
+}
+
+.operator {
+    background-color: #ff9800;
+    color: white;
+}
+
+#result {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}
